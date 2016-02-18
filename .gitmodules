@@ -1,0 +1,3 @@
+[submodule "FasTC"]
+	path = FasTC
+	url = https://github.com/GammaUNC/FasTC.git
