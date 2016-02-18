@@ -1,0 +1,25 @@
+{
+  "name": "node-gpu-fastc",
+  "version": "1.0.0",
+  "description": "Node module for compressing GPU textures in various formats (BPTC, ETC1, DXT1, DXT5, PVRTC)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunta/node-gpu-fastc.git"
+  },
+  "scripts": {
+    "compile": "cmake-js compile -d ./FasTC --CDCMAKE_BUILD_TYPE=Release --prefer-make"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunta/node-gpu-fastc/issues"
+  },
+  "homepage": "https://github.com/gunta/node-gpu-fastc#readme",
+  "dependencies": {
+    "cmake-js": "^3.1.2"
+  }
+}
